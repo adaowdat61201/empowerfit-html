@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EmpowerFit</title>
+
+    <!-- linking -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+
+    <!-- popup -->
+    <section class="popup" id="popup" onclick="closePopup()">
+        <img src="img/pop.png" class="img-fluid popup-img" alt="popup">
+    </section>
+    
+
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="text-center">
+                <a href="./index.html">
+                    <img src="img/logo.png" class="img-fluid logo" alt="logo">
+                </a>
+
+                <div class="nav p-2 bg-pink d-flex justify-content-around align-items-center gap-3 bg-pink">
+                    <a href="./index.html" class="text-white active lead text-decoration-none">
+                        ABOUT US
+                    </a>
+                    <a href="./membership.html" class="text-white lead text-decoration-none">
+                        JOIN US
+                    </a>
+                    <a href="./testimonials.html" class="text-white lead text-decoration-none">
+                        TESTIMONIALS
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+       <!-- about -->
+       <section class="about py-5">
+        <div class="container-fluid px-5">
+            <div class="row g-5">
+                <div class="col-md-6">
+                    <div class="about-slider">
+                        <div class="slide">
+                            <img src="img/aboutus1.jpeg" class="img-fluid slide-img" id="slideImg" alt="about us">
+                        </div>
+                        <!--<div class="slide">
+                            <img src="img/aboutus2.avif" class="img-fluid slide-img" alt="about us img">
+                        </div>
+                        <div class="slide">
+                            <img src="img/aboutus3.jpeg" class="img-fluid slide-img" alt="about us img">
+                        </div>
+                        <div class="slide">
+                            <img src="img/aboutus4.webp" class="img-fluid slide-img" alt="about us img">
+                        </div> -->
+                    </div>
+
+                </div>
+                <div class="col-md-6 text-center m-auto">
+                    <p class="mb-0 text-white h3 fw-normal lh-2">
+                        EmpowerFit is a women-only gym where strength meets confidence. Our mission is simple: to create
+                        a supportive space where women feel empowered to push their limits and achieve their fitness
+                        goals. Through personalized training programs and empowering classes, we aim to build not only
+                        physical strength but also confidence in every member. At EmpowerFit, we're all about fostering
+                        a sense of community and sisterhood, empowering women to thrive both inside and outside the gym.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- map -->
+    <section class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.171335696292!2d-73.99288347352937!3d40.73625528612966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2599f73100bf7%3A0x1e491fafbfbceda2!2sUnion%20Square%20Greenmarket!5e0!3m2!1sen!2sbd!4v1714683985896!5m2!1sen!2sbd"
+            height="450" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+    </section>
+    
+    
+
+    <!-- footer -->
+    <footer class="bg-pink py-4">
+        <div class="container-fluid px-5">
+            <div class="row">
+                <div class="col-md-4 m-auto">
+                    <a href="" class="d-flex mb-2 text-decoration-none justify-content-start align-items-center gap-2">
+                        <img src="img/instagram_footer.webp" class="img-fluid insta-icon" alt="instagram logo">
+                        <span class="text-white">@empowerfit</span>
+                    </a>
+                    <a href="tel:7181234567" class="text-white text-decoration-none">
+                        Contact Us: (718) 123-4567
+                    </a>
+                </div>
+                <div class="col-md-4 text-center m-auto">
+                    <p class="mb-0">
+                        123 Union Square, New York <br>
+                        11234
+                    </p>
+                </div>
+                <div class="col-md-4 text-end m-auto">
+                    <p class="mb-0">
+                        Hours: <br>
+                        Mon-Fri: 6am-11pm <br>
+                        Sat-Sun: OPEN 24 HRS
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
